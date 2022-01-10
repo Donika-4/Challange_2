@@ -1,0 +1,50 @@
+  237  python app.py 
+  238  python app.py
+  239  git clone https://github.com/Donika-4/Challange_Fintech_2.git
+  240  ls
+  241  cd Challange_Fintech_2/
+  242  git status
+  243  git add .
+  244  git status
+  245  git comit -m "Initial upload of files"
+  246  git commit -m "Initial upload of files"
+  247  git push
+  248  git pull
+  249  git pull
+  250  git push
+  251  git push
+  252  git add .
+  253  git push
+  254  git status
+  255  git commit -m "in progress" 
+  256  git push
+  257  git commit -m finished
+  258  git push
+  259  history 50
+  260  git push
+  261  git commit -m "File Upload"
+  262  git push
+  263  git commit - m "File Upload"
+  264  git commit -m "Last one"
+  265  git add .
+  266  git push
+  267  git status
+  268  git add READEME.md
+  269  git add .
+  270  git push
+  271  git clone https://github.com/Donika-4/Challange_Fintech_2.git
+  272  git clone https://github.com/Donika-4/Challange_Fintech_2.git
+  273  cd ..
+  274  ls
+  275  git status
+  276  git add .
+  277  git status
+  278  git clone https://github.com/Donika-4/Challange_Fintech_2.git
+  279  history 50
+  280  git push
+  281  git commit - "Last update"
+  282  git status
+  283  git add .
+  284  git push 
+  285  history 50
+  286  history 50 > terminal_history.txt

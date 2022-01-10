@@ -110,6 +110,23 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
+    
+    if choice_to_save == "Yes":
+    csv_path = questionary.text("Please enter folder for qualifying_loans.csv file?").ask()
+    if not Path(csv_path).exit():
+        sys.exit("Please retry with the correct path.")
+    else:
+        csv_path = csv_path + "\qualifying_loans.csv"
+        save_csv(header, qualifying_loans , csv_path)   
+else:
+    sys.exit("Thank you, your application has been sumbited!")
+
+
+def save_csv(qualifying_loans)
+with open(csv_path), "w", "newline" as csvfile:
+    csvwriter = csv.writer(csvfile)
+    for loan in qualifying_loans:
+        writer.writerow(loan)
 
 
 def run():
